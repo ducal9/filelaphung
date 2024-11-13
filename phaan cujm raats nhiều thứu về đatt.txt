@@ -1,0 +1,20 @@
+phaan cujm raats nhiều thứu về đatta nma trong này họ nói về bài toán phân chia ảnh 
+giả lập số lượng cụm sau đó lặp tính trọng tâm cho cụm và cái nào gần tâm nhất phân phối chia lại cụm    . vd 100 bức ảnh thì chia làm 3 cụm ,sẽ có vòng lặp trong từng cụm thì sẽ tính đc 1 cái tâm của cụm bằng thuật toán tính khoảng cách , sau khi có đc 3 cái tâm của 3 cụm thì xét xem vd cái ảnh thứ nhất gần tâm của cụm nào thì xẽ cho vào lặp lại cái nào gần tâm nào thì cho vào tâm đó . vd e cho lặp lại 15 lần thì cuối cùng sẽ có đc 3 cụm 
+
+sau khi phân cụm thì các cái hangf xóm gần nhau đưa vào 1 cụm , em tìm hiểu thêm khoảng cách mã da tan và eclip 
+
+ngoài cái gần nhất nếu đưa chỉ số  giá trị r , có những điểm ko thuộc tâm 1 2 3 ,vd có 3 cụm chính có tâm  xe đạp o tô tàu thủy tự nhiên bth có con cá thì nó sẽ bị loại bỏ 
+
+5.2 khác phân cụm chút 
+
+ phân cụm sẽ biết truoc số cụm  tính tâm cụm r tính tâm cụm rồi cho những thằng gần nhất vào cụm và biết trước số cụm . comf thằng này thì không biết trước số cụm 
+
+bán kính Ép ép si lon bán kính chấp nhận đc  và min poi
+coro poi p 
+duyêth từng đói tượng đưa ra 1 bán kính trc( vd mã da tan ) quét khaongr cách vs các điểm khác r nó sẽ đếm nếu khoảng cáh nhỏ hơn cái ép si lon . vd : sau khi nó đếm đc 10 điểm và minpts ban đầu minh để 9 đieemr thì nó lớn hơn thì mình coi nó à corepoic .
+
+q đc gọi là điểm biên nếu điểm biên của p nằm trong vùng không gian của p mà q ko phải là core poi thì nó sẽ là biên 
+điểm biên đc phát hiện ở cụm nào trc thì nó phân vào cụm đó
+
+5.3 
+ , duyệt qua từng diểm 1 thì sẽ có 1 hàm tính mật độ nó sẽ trả về mỗi điểm mỗi giá trị , thì những thằng có giá trị mật độ gần nhuau thì sẽ vào 1 cụm . tâm của 1 cụm sẽ là điểm hút mật độ 
